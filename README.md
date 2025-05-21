@@ -39,8 +39,8 @@ Also featured in showcase: [ModularClocks](https://www.deviantart.com/jaxorigina
 ---
 
 ### 📦 Installation
-1. Ensure you have **[Rainmeter](https://www.rainmeter.net/)** installed.
-2. Extract or copy the `LuckyDock` skin folder to your Rainmeter `Skins` directory.
+1. Ensure you have **[Rainmeter](https://www.rainmeter.net/)** and [Python 3.xx](https://www.python.org/ftp/python/3.13.3/python-3.13.3-amd64.exe) installed.
+2. Download and run the latest release of the LuckyDock `.rmskin` file on the [releases page](https://github.com/7eventy7/luckydock/releases).
 3. Refresh Rainmeter and load `LuckyDock1.ini` (or any other dock you create).
 4. Right-click the dock → **Manage Dock** to launch the customization menu.
 
