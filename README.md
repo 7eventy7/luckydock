@@ -1,6 +1,6 @@
 <div align="center">
 
-# LuckyDock
+![LuckyDockPreview](images/logo.png)
 ### Minimalist Rainmeter Application Docks
 
 [![GitHub issues](https://img.shields.io/github/issues/7eventy7/luckydock.svg)](https://github.com/7eventy7/luckydock/issues)
@@ -33,32 +33,28 @@ Also featured in showcase: [ModularClocks](https://www.deviantart.com/jaxorigina
 
 ### 📝 Requirements
 * Rainmeter 4.3+
-* Python 3.x (for the `LuckyDockManager.pyw` script)
-* ActionTimer Rainmeter plugin (for hover effects)
+* Python 3.x (for the `manager.pyw` script)
 
 ---
 
 ### 📦 Installation
 1. Ensure you have **[Rainmeter](https://www.rainmeter.net/)** and [Python 3.x](https://www.python.org/ftp/python/3.13.3/python-3.13.3-amd64.exe) installed.
 2. Download and run the latest release of the LuckyDock `.rmskin` file on the [releases page](https://github.com/7eventy7/luckydock/releases).
-3. Refresh Rainmeter and load `LuckyDock1.ini` (or any other dock you create).
-4. Right-click the dock → **Manage Dock** to launch the customization menu.
+3. Refresh Rainmeter and run `/@Resources/manager.pyw`
 
 ---
 
 ### 🧰 Managing Docks
-Each dock includes a context menu item that opens the `LuckyDockManager.pyw` tool. This graphical interface allows:
+Each dock includes a context menu item that opens the dashboard manager tool. This graphical interface allows:
 
-* Adding new shortcuts
-* Editing existing entries
-* Removing apps
-* Rearranging items
 
-The dock’s appearance and behavior can be fine-tuned through the variables section in the `.ini` file (e.g., icon size, background opacity, gaps, etc.).
+- Multiple Docks - Create, delete, and switch between unlimited docks
+- Visual Customization - Adjust colors, corner radius, icon size, and opacity with live sliders
+- Flexible Layout - Switch between vertical and horizontal orientations
+- Smart Entry Management - Add apps, separators, and reorder with buttons 
+- Enhanced Behavior - Configure tooltips, fonts, and click modes
+- Real-time Updates - Changes apply instantly to your active docks
+
+The dark-themed interface automatically saves and refreshes your docks, eliminating the need for manual file editing.
 
 ---
-
-### ➕ Creating a New Dock
-1. Duplicate `DockTemplate.ini` and rename it (e.g., `LuckyDock2.ini`).
-2. Update the two sections at the top of the ini that feature #comments
-
